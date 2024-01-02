@@ -69,3 +69,13 @@ negative_numbers = [-5,-4,-3,-2,-1]
 
 whole_number = negative_numbers + zero + negative_numbers
 print(whole_number)
+
+#! finding index of an item 
+countries = ['Ethiopia', 'kenya', 'Japan', 'England']
+print('The index of the item is : ',countries.index('Japan'))
+
+#? sorting items in a list 
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+
