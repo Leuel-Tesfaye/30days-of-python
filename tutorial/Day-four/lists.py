@@ -42,4 +42,17 @@ does_exist = 'banana' in fruits
 print(does_exist)
 
 #? adding items in a list 
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.append('apple')
+print(fruits)
 
+#! inserting items in a list 
+
+countries = ['Ethiopia', 'kenya', 'Japan', 'England']
+countries.insert(2, 'sudan')
+print('List of countries: ',countries)
+
+#? removing items from a list 
+countries = ['Ethiopia', 'kenya', 'Japan', 'England']
+countries.remove('Ethiopia')
+print(countries)
