@@ -61,3 +61,11 @@ print(countries)
 skills = ['communication', 'analytical skill', 'microsoft office']
 skills.pop(2)
 print('List of skills :', skills)
+
+#? joining items in a list 
+positive_numbers = [1, 2, 3, 4, 5]
+zero = [0]
+negative_numbers = [-5,-4,-3,-2,-1]
+
+whole_number = negative_numbers + zero + negative_numbers
+print(whole_number)
