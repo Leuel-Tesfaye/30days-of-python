@@ -56,3 +56,8 @@ print('List of countries: ',countries)
 countries = ['Ethiopia', 'kenya', 'Japan', 'England']
 countries.remove('Ethiopia')
 print(countries)
+
+#! removing items from a list using their index (pop method)
+skills = ['communication', 'analytical skill', 'microsoft office']
+skills.pop(2)
+print('List of skills :', skills)
