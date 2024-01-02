@@ -25,3 +25,21 @@ print(items[0])
 
 ## Accessing List Items Using negative Indexing
 print(items[-1])
+
+#! slicing items from a list
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits[0:2])
+
+#? modifying items in a list 
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits [0] = 'apple'
+print('fruits', fruits)
+
+#! checking items in a list 
+fruits = ['banana', 'orange', 'mango', 'lemon']
+does_exist = 'banana' in fruits
+print(does_exist)
+
+#? adding items in a list 
+
