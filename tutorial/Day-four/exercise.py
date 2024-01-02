@@ -33,4 +33,17 @@ print(IT_companies)
 # Insert an IT company in the middle of the companies list
 IT_companies.insert(1, 'Samsung')
 print(IT_companies)
+ 
+# Slice out the first 3 companies from the list
+first_three_companies = IT_companies[:3]
+print(first_three_companies)
 
+#? Remove the first IT company from the list
+IT_companies = [ 'Facebook', 'Google', 'Microsoft', 'Apple', 'Oracle' ]
+remove_item = IT_companies.pop(0)
+print('Removed item from the list :',remove_item)
+print('updated list : ', IT_companies)
+
+#! Remove all IT companies from the list
+IT_companies.clear()
+print('Removed update of the IT companies : ' , IT_companies)
