@@ -24,3 +24,9 @@ student = {
     'country': 'Ethiopia',
     'city': 'Addis Ababa',
 }
+
+# Get the length of the student dictionary
+print(len(student))
+
+# Get the value of skills and check the data type, it should be a list
+print(student.values())
