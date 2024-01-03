@@ -11,3 +11,16 @@ dog = {
 }
 
 print('This are the attributes of my Dog: ', dog)
+
+# ? Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
+
+student = {
+    'first_name' : 'prince',
+    'last_name': 'Hope',
+    'gender': 'Male',
+    'age': '24',
+    'marital status': 'single',
+    'skills': {'Html','Css', 'Javascript','React', 'Python'},
+    'country': 'Ethiopia',
+    'city': 'Addis Ababa',
+}
